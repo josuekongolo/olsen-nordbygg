@@ -1,0 +1,64 @@
+=====================================================
+OLSEN NORDBYGG - Bildeguide
+=====================================================
+
+VIKTIG: Erstatt plassholderne med ekte bilder for best resultat.
+
+-----------------------------------------------------
+HERO-BILDE (images/hero/hero-bg.jpg)
+-----------------------------------------------------
+Størrelse: 1920x1080 piksler minimum
+Format: JPEG
+Anbefalt motiv:
+- Kvalitets trehus i nordnorsk/arktisk miljø
+- Håndverker i arbeid
+- Tromsø-landskap med arkitektur
+- Vinterscene med bygning
+
+TIPS: Bildet vises med overlegg, så det trenger ikke
+være perfekt - kontrast og stemning er viktigst.
+
+-----------------------------------------------------
+TJENESTE-BILDER (images/services/)
+-----------------------------------------------------
+Størrelse: 800x600 piksler minimum
+Format: JPEG
+Trengs 6 bilder:
+
+1. renovering.jpg - Baderom eller kjøkken renovering
+2. tilbygg.jpg - Husutvidelse eller påbygg
+3. nybygg.jpg - Nytt hus eller hytte
+4. innvendig.jpg - Innvendig snekkerarbeid, listverk, panel
+5. utvendig.jpg - Terrasse, kledning, fasade (helst vinter/nordisk)
+6. vedlikehold.jpg - Reparasjon eller vedlikeholdsarbeid
+
+-----------------------------------------------------
+PROSJEKT-BILDER (images/projects/)
+-----------------------------------------------------
+Størrelse: 800x500 piksler minimum
+Format: JPEG
+Legg til bilder fra faktiske prosjekter etter hvert.
+
+Navngi bildene tydelig:
+- project-1.jpg, project-2.jpg, etc.
+- Eller bruk beskrivende navn: bad-tromsø-2026.jpg
+
+-----------------------------------------------------
+BILDEKVALITET
+-----------------------------------------------------
+- Bruk høyoppløselige bilder
+- Komprimer for web (under 500KB per bilde)
+- Bilder bør vise nordnorsk/arktisk kontekst der det passer
+- Gode lysforhold og profesjonell kvalitet
+
+-----------------------------------------------------
+GRATIS BILDERESSURSER
+-----------------------------------------------------
+- Unsplash.com (gratis, høy kvalitet)
+- Pexels.com (gratis)
+- Freepik.com (noen gratis, attribusjon kreves)
+
+Søk etter: "nordic house", "scandinavian architecture",
+"carpenter work", "home renovation", "wooden house norway"
+
+=====================================================

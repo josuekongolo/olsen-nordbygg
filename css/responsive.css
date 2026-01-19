@@ -1,0 +1,280 @@
+/* ========================================
+   OLSEN NORDBYGG - Responsive Stylesheet
+   ======================================== */
+
+/* ----------------------------------------
+   Tablet (768px and up)
+   ---------------------------------------- */
+@media (min-width: 768px) {
+    /* Typography */
+    h1 {
+        font-size: var(--text-4xl);
+    }
+
+    /* Header */
+    .nav-desktop {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .header-cta {
+        display: inline-flex;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 550px;
+    }
+
+    .hero-content {
+        padding: var(--space-12) 0;
+    }
+
+    /* Services Grid */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Features Grid */
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Values Grid */
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Area Grid */
+    .area-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Contact Grid */
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Footer Grid */
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Quick Contact */
+    .quick-contact-inner {
+        justify-content: space-between;
+    }
+}
+
+/* ----------------------------------------
+   Desktop (1024px and up)
+   ---------------------------------------- */
+@media (min-width: 1024px) {
+    /* Layout */
+    .section {
+        padding: var(--space-12) 0;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 600px;
+    }
+
+    /* Services Grid */
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Features Grid */
+    .features-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Values Grid */
+    .values-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Footer Grid */
+    .footer-grid {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+
+    /* Service Detail Layout */
+    .service-detail-inner {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: var(--space-8);
+    }
+}
+
+/* ----------------------------------------
+   Large Desktop (1200px and up)
+   ---------------------------------------- */
+@media (min-width: 1200px) {
+    /* Container */
+    :root {
+        --container-padding: 2rem;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 650px;
+    }
+
+    .hero-content {
+        max-width: 800px;
+    }
+
+    /* Map */
+    .map-container iframe {
+        height: 450px;
+    }
+}
+
+/* ----------------------------------------
+   Mobile-Specific Styles (up to 767px)
+   ---------------------------------------- */
+@media (max-width: 767px) {
+    /* Typography */
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    /* Buttons */
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Contact Form */
+    .contact-form-card {
+        padding: var(--space-5);
+    }
+
+    /* Page Header */
+    .page-header {
+        padding: var(--space-8) 0;
+    }
+
+    /* Service Cards */
+    .service-card {
+        padding: var(--space-5);
+    }
+
+    /* Quick Contact */
+    .quick-contact-inner {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-3);
+    }
+}
+
+/* ----------------------------------------
+   High Resolution Displays
+   ---------------------------------------- */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Ensure crisp images on retina displays */
+    .logo-icon,
+    .service-icon,
+    .feature-icon {
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+/* ----------------------------------------
+   Print Styles
+   ---------------------------------------- */
+@media print {
+    /* Hide unnecessary elements */
+    .header,
+    .nav-mobile,
+    .footer,
+    .quick-contact,
+    .btn,
+    .cta-section,
+    form {
+        display: none !important;
+    }
+
+    /* Reset colors for printing */
+    body {
+        color: #000;
+        background: #fff;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #000;
+    }
+
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    /* Ensure content is visible */
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .section {
+        padding: 1rem 0;
+    }
+}
+
+/* ----------------------------------------
+   Reduced Motion
+   ---------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ----------------------------------------
+   Dark Mode Support (Future Enhancement)
+   ---------------------------------------- */
+@media (prefers-color-scheme: dark) {
+    /* Reserved for future dark mode implementation */
+    /* Currently disabled to maintain brand consistency */
+}
